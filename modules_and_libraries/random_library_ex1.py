@@ -10,7 +10,7 @@ val4 = random.random()
 print(val1,val2,val3,val4)
 
 # generate a random integer between 0 and 10
-val1 = random.randint(0,10)x
+val1 = random.randint(0,10)
 val2 = random.randint(0,10)
 val3 = random.randint(0,10)
 val4 = random.randint(0,10)
