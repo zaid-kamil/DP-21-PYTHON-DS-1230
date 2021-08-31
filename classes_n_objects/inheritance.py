@@ -54,3 +54,13 @@ print(ob3.area())
 
 
 
+class EnhancedList(list):
+    
+    def reverse(self):
+        print(f'total item in list {len(self)}')
+        return super().reverse()
+
+
+obj = EnhancedList([1,2,3,4,5])
+obj.reverse()
+print(obj)
